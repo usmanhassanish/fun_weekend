@@ -5,38 +5,60 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<style type="text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+			font-family: cursive;
+		}
 		#background
 		{
 			width: 100%;
-			margin-top: 80px;
-			height: 400px;
-			background-image: url('june1.jpg');
-    background-size: cover; /* This will make sure the image covers the entire div */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    position: relative; /* Ensure proper positioning of child elements */
-			color: white;
-			border: 2px solid grey;
+			height: 500px;
+			background-color: #2F3C7E;
+			border: 1px solid black;
 		}
-		.content
+		.top-content
 		{
-			width: 70%;
-			height: 80%;
-			background-color: #800020;
+			margin-top: 20px;
+			width: 80%;
+			height: 50px;
 			margin: auto;
-			margin-top: 30px;
 			text-align: center;
-			border: 2px solid black;
-			border-style:inset;
+			color: white;
+			font-style: italic;
+			border-right: 4px solid #FBEAEB;
+			border-bottom: 4px solid #FBEAEB;
+
+		}
+		#bottom-content
+		{
+			width: 80%;
+			height: 272px;
+			color: WHITE;
+			margin: auto;
+			border-left: 4px solid #FBEAEB;
+		}
+		.padded
+		{
+			padding-top: 4px;
+			padding-bottom: 10px;
+			font-style: italic;
+			padding-left: 12px;
 		}
 	</style>
 </head>
 <body>
 	<div id="background">
-		<div class="content">
-			<i>
-			<h1>"Opportunity is missed by most people because it is dressed in overalls and looks like work." —Thomas Edison</h1>
-				</i>
+		<br>
+		<div class="top-content">	
+			<H1>IKIGAI</H1>
+		</div>
+		<div id="bottom-content">
+			<h2 class="padded"> WHAT YOU LOVE</h2>
+			<h2 class="padded"> WHAT YOU ARE GOOD AT</h2>
+			<h2 class="padded"> WHAT THE WORLD NEEDS</h2>
+			<h2 class="padded"> WHAT YOU CAN BE PAID FOR</h2>
 		</div>
 	</div>
 </body>
