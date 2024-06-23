@@ -7,118 +7,98 @@
 	<style type="text/css">
 		*
 		{
-			box-sizing: border-box;
-			font-family: courier new;
-			padding: 0;
+			padding:0;
 			margin: 0;
+			box-sizing: border-box;
+			font-family: TREBUCHET MS;
+			font-weight: bold;
+
 		}
 		.content
 		{
-
-			width: 70%;
-			height: 500px;
-			float: left;
+			width: 97%;
+			margin: auto;
+			margin-top: 30px;
+			height: 470px;
+			display: grid;
+    place-items: center;
+			background-image: url('footy2.jpg');
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			border: 2px solid black;
 		}
-		.content2
+		.inner
 		{
-			width: 30%;
-			height: 500px;
-			float: left;
-			color: #990011;
-		}
-		.left1
-		{
-			width: 50%;
-			height: 250px;
-			border-bottom: 2px solid #990011;
-			border-right: 2px solid #990011;
-			float: left;
-		}
-		.right1
-		{
-			width: 50%;
-			height: 250px;
-			border-bottom: 2px solid #990011;
-			float: left;
-		}
-		.left2
-		{
-			width: 50%;
-			height: 250px;
-			float: left;	
-			border-right: 2px solid #990011;
-		}
-		.right2
-		{
-			width: 50%;
-			height: 250px;
-			float: left;	
-		}
-		.top-top
-		{
-			width: 100%;
-			height: 50px;
-		}
-		.box
-		{
-			width: 90%;
+			width: 80%;
 			height: 90%;
-			margin: auto;
-			margin-top: 12px;
-			background-color: #990011;
-			color: #FCF6F5;
+			background-color: #CADCFC;
+			color: #00246B;
 			text-align: center;
+			border-radius: 5PX;
+			opacity: 0.88;
+
 		}
-		.text
+		.left
 		{
-			width: 95%;
-			margin: auto;
-			padding-top: 60px;
+			float: left;
+			width: 50%;
+			overflow: auto;
+
+		
 		}
-		.text1
+		.right
 		{
-			width: 95%;
-			margin: auto;
-			padding-top: 40px;
+			float: left;
+			width: 50%;
+			border-left: 2px solid black;
+			overflow: auto;
+
 		}
 	</style>
+
 </head>
 <body>
-	<div class="top-top">
-		<img src="up.png" style="margin-left: 28.5%;">
-	</div>
 	<div class="content">
-		<div class="top">
-			<div class="left1">
-				<div class="box">
-					<div class="text">NEXT INNOVATIVE CAMPAIGN</div>
+		<div class="inner">
+			<div>
+			<h1>EURO 2024 </h1><img src="trophy.png"></div>
+			<h2>LAST 16 PREDICTIONS</h2><br>
+			<div style="overflow: auto; border: 2px solid black;">
+				<div class="left">
+					<h3>GERMANY</h3>
+					<h3>FRANCE</h3>
+					<h3>ENGLAND</h3>
+					<h3>BELGIUM</h3>
+					<h3>SPAIN</h3>
+					<h3>ITALY</h3>
+					<h3>NETHERLANDS</h3>
+					<h3>SWITZERLAND</h3>
+
 				</div>
-			</div>
-			<div class="right1">
-				<div class="box">
-					<div class="text">LEADERSHIP DEVELOPMENT</div>
+				<div class="right">
+					<h3>SCOTLAND</h3>
+					<h3>PORTUGAL</h3>
+					<h3>TURKEY</h3>
+					<h3>CROATIA</h3>
+					<h3>ROMANIA</h3>
+					<h3>DENMARK</h3>
+					<h3>SLOVAKIA</h3>
+					<h3>AUSTRIA</h3>
 				</div>
+				<br><br>
 			</div>
-		</div>
-			
-		<div class="bottom">
-			<div class="left2">
-				<div class="box">
-					<div class="text">OPERATING SYSTEMS</div>
-				</div>
+			 <div style=" margin-top: 20px;">
+			<h2>POSSIBLE WINNERS</h2>
+			<div style="text-align: center;">
+				<span><img src="ger.png"></span>
+				<span><img src="eng.png"></span>
+				<span><img src="por.png"></span>
+				<span><img src="fra.png"></span>
 			</div>
-			<div class="right2">
-				<div class="box">
-					<div class="text1">BUSSINESS DEVELOPMENT / RELATIONSHIPS / SALES</div>
-				</div>
 			</div>
-		</div>
+			</div>
 	</div>
-	<div class="content2">
-		<div style="margin-top:100px;">EXPONENTIAL</div>
-		<img src="right.png" style="margin-top:105px;">
-		<div style="padding-top: 70px;">LINEAR</div>
-	</div>
-	<img src="down.png" style="margin-left: 28.5%;">
+
 </body>
 </html>
