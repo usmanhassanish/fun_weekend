@@ -9,54 +9,94 @@
                 padding: 0;
                 margin: 0;
                 box-sizing: border-box;
+                color: #FEE715;
             }
+         
+         body
+         {
+            background-color: #101820;
+         }
          .content
          {
-
+            margin-top: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            height: 425px;
             width: 95%;
+            margin-top: 30px;
             margin-left: 2.5%;
             margin-right: 2.5%;
-            margin-top: 70px;
-            height: 338px;
+            border-right: 1px solid #FEE715;
+            border-left: 1px solid #FEE715;
+            border-bottom: 1px solid #FEE715;
+            border-right-style: dotted;
+            border-left-style: dotted;
+            border-bottom-style: dotted;
+         }
+         .slice
+         {
+            width: 100%;
+            height: 130px;
             
          }
          .left
          {
-            float: left;
-            width: 50%;
+            width: 65%;
             height: 100%;
-            border: 2px solid #FBEAEB;
-            color: #FBEAEB;
-            border-style: outset;
-            background-color: #2F3C7E;
-            font-family: impact;
+            text-align: center;
+            float: left;
          }
          .right
          {
-            float: left;
-            width: 50%;
+            width: 35%;
             height: 100%;
-            
-            
-            
-
+            float: left;
          }
-         body
+         .center
          {
-            background-color: black;
+            margin-top: 5px;
+         }
+         .heading
+         {
+            border: 2px solid #FEE715;
+            text-align: center;
+            width: 100%
          }
         </style>
     </head>
     <body>
-        <div class="content">
-            <div class="left">
-                <div style="width: 90%; margin: auto;">
-                <h1>“Be the designer of your world and not merely the consumer of it.” - James Clear</h1>
+        
+         <div class="content">
+            <div class="heading"><h2>They never miss penalaties</h2></div>
+            
+
+            <div class="slice">
+                <div class="left">
+                    <h1 class="center">Pablo Sarabia</h1>
+                    <h2> Total Played: 12</h2>
+                    <img src="spa.png">
                 </div>
+                <div class="right"><img src="sara.jpg" width="100%" height="100%"></div>
             </div>
-            <div class="right">
-                <img src="clea.jpg" width="100%" height="100%">
+
+            <div class="slice">
+                <div class="left">
+                    <h1 class="center">Yaya Toure</h1>
+                    <h2 > Total Played: 15</h2>
+                    <img src="cot.png">
+                </div>
+
+                <div class="right"><img src="yaya.jpg" width="100%" height="100%"></div>
             </div>
-        </div>   
+            <div class="slice">
+                <div class="left">
+                    <h1 class="center">Mile Jedinak</h1>
+                    <h2> Total Played: 16</h2>
+                    <img src="aus.png">
+                </div>
+                <div class="right"><img src="mile.jpg" width="100%" height="100%"></div>
+            </div>
+
+            
+         </div>
     </body>
 </html>
