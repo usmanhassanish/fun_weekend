@@ -1,102 +1,101 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-        <style>
-            *
-            {
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-                color: #FEE715;
-            }
-         
-         body
-         {
-            background-color: #101820;
-         }
-         .content
-         {
-            margin-top: 30px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            height: 425px;
-            width: 95%;
-            margin-top: 30px;
-            margin-left: 2.5%;
-            margin-right: 2.5%;
-            border-right: 1px solid #FEE715;
-            border-left: 1px solid #FEE715;
-            border-bottom: 1px solid #FEE715;
-            border-right-style: dotted;
-            border-left-style: dotted;
-            border-bottom-style: dotted;
-         }
-         .slice
-         {
-            width: 100%;
-            height: 130px;
-            
-         }
-         .left
-         {
-            width: 65%;
-            height: 100%;
-            text-align: center;
-            float: left;
-         }
-         .right
-         {
-            width: 35%;
-            height: 100%;
-            float: left;
-         }
-         .center
-         {
-            margin-top: 5px;
-         }
-         .heading
-         {
-            border: 2px solid #FEE715;
-            text-align: center;
-            width: 100%
-         }
-        </style>
-    </head>
-    <body>
-        
-         <div class="content">
-            <div class="heading"><h2>They never miss penalaties</h2></div>
-            
+	<style type="text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			color: black;
+		}
+		.content
+		{
+			width: 100%;
+			margin-top: 30px;
+			background-image: url('one.jpg');
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 420px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.inner
+		{
+			width: 80%;
+			height: 80%;
+			background-color: white;
+			border: 2px solid black;
+			border-style: dashed;
+			text-align: center;
+		}
+		.left
+		{
+			float: left;
+			width: 50%;
+			height: 100px;
+			border-right: 2px solid tomato;
+		}
+		.right
+		{
+			width: 50%;
+			height: 100px;
+			border-left: 2px solid tomato;
+			float: left;
+		}
+		.box
+		{
+			width: 25%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="inner">
+			<div class="title">
+				<h1>EURO<img src="tro.png">2024 </h1>
+				<h2>QUATER-FINAL PREDICTIONS</h2>
+			</div>
+			<div style="overflow: auto;">
+				<div class="left">
+					<H3>GERMANY</h3>
+						<h3>SPAIN</h3>
+							<h3>ENGLAND</h3>
+								<h3>NETHERLANDS</h3>
+				</div>
+				<div class="right">
+						<h3>PORTUGAL</h3>
+						<h3>FRANCE</h3>
+							<h3>AUSTRIA</h3>
+								<h3>SWITZERLAND</h3>
+				</div>
+			</div>
+			<div style="overflow: auto;">
+				<div>
+					<div class="box"> <img src="ger.png"></div>
+					<div class="box"> <img src="fra.png"></div>
+					<div class="box"> <img src="net.png"></div>
+					<div class="box"> <img src="aus.png"></div>
+				</div>
 
-            <div class="slice">
-                <div class="left">
-                    <h1 class="center">Pablo Sarabia</h1>
-                    <h2> Total Played: 12</h2>
-                    <img src="spa.png">
-                </div>
-                <div class="right"><img src="sara.jpg" width="100%" height="100%"></div>
-            </div>
+				<div>
+					<div class="box"> <img src="por.png"></div>
+					<div class="box"> <img src="swi.png"></div>
+					<div class="box"> <img src="eng.png"></div>
+					<div class="box"> <img src="spa.png"></div>
 
-            <div class="slice">
-                <div class="left">
-                    <h1 class="center">Yaya Toure</h1>
-                    <h2 > Total Played: 15</h2>
-                    <img src="cot.png">
-                </div>
+				</div>
 
-                <div class="right"><img src="yaya.jpg" width="100%" height="100%"></div>
-            </div>
-            <div class="slice">
-                <div class="left">
-                    <h1 class="center">Mile Jedinak</h1>
-                    <h2> Total Played: 16</h2>
-                    <img src="aus.png">
-                </div>
-                <div class="right"><img src="mile.jpg" width="100%" height="100%"></div>
-            </div>
+			</div>
+		</div>
+	</div>
 
-            
-         </div>
-    </body>
+</body>
 </html>
